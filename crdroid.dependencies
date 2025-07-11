@@ -1,0 +1,22 @@
+[
+    {
+        "repository": "crdroidandroid/android_packages_apps_ElmyraService",
+        "target_path": "packages/apps/ElmyraService",
+        "branch": "15.0"
+    },
+    {
+            "repository": "crdroidandroid/android_kernel_google_b1c1",
+        "target_path": "kernel/google/b1c1",
+        "branch": "15.0"
+    },
+    {
+            "repository": "crdroidandroid/android_vendor_google_crosshatch",
+        "target_path": "vendor/google/crosshatch",
+        "branch": "15.0"
+    },
+    {
+            "repository": "crdroidandroid/android_device_google_gs-common",
+        "target_path": "device/google/gs-common",
+        "branch": "15.0"
+    }
+]
