@@ -27,3 +27,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=blueline
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+PRODUCT_COPY_FILES += \
+    device/google/crosshatch/conf/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
